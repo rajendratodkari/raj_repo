@@ -21,3 +21,13 @@
         
       :g/keyword/Commentary -
         comment out all lines containing string 'keyword'
+        
+## 2. tpope/vim-surround
+
+	**Normal Mode**
+	
+	"Hello World!"		cs"'		'Hello World!'
+	"Hello World!"		cd"<q>		<q>Hello World</q>
+	<q>Hello World</q>	cst'		'Hello World'
+	"Hello World!"		ds"			Hello World!
+	
