@@ -1,8 +1,8 @@
-Vim Plugins & their usages
+# Vim Plugins & their usages
 
-1. tpope/vim-commentary
+## 1. tpope/vim-commentary
 
-    Normal Mode
+    **Normal Mode**
     
       gcc OR 5gcc - 
         comment out number of lines
@@ -14,7 +14,7 @@ Vim Plugins & their usages
                 gcaw - comment out all line including {}
         comment out in visual mode
         
-     Command Mode
+     **Command Mode**
      
       :7,17Commentary -
         comment out range of lines
