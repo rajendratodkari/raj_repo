@@ -26,8 +26,20 @@
 
 	**Normal Mode**
 	
-	"Hello World!"		cs"'		'Hello World!'
-	"Hello World!"		cd"<q>		<q>Hello World</q>
-	<q>Hello World</q>	cst'		'Hello World'
+	Hello World!		csw"			"Hello" World!		--	single	world (w)
+	Hello World!		css"			"Hello World!"		--	whole sentence (s)
+	"Hello World!"		cs"'			'Hello World!'
+	"Hello World!"		cd"<q>			<q>Hello World</q>
+	<q>Hello World</q>	cst'			'Hello World'
 	"Hello World!"		ds"			Hello World!
+	Hello World		ysiw[ OR ysaw[		[ Hello ] World!		--	cursor on Hello
+	Hello World		ysiw] OR ysaw]		[Hello] World!			--	cursor on Hello
+	[Hello] World		yss) OR yssb		([Hello] World!)
+	([Hello] World!)	ds[ds(			Hello World!			--	remove specific surrounding
+	Hello World!		ysiw<p>			<p>Hello</p> World!
+	
+	**Visual Line Mode**
+	<p>Hello</p> World!	S<div class="temp">(hit return)		<div class"temp">
+										<p>Hello</p> World!
+									</div>
 	
