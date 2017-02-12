@@ -43,3 +43,11 @@
 										<p>Hello</p> World!
 									</div>
 	
+## 3. tpope/vim-ragtag
+
+	**Insert Mode**
+	
+	CTRL+X !		new Doctype Declartion
+	CTRL+X @		new css tag
+	CTRL+X #		new meta tag
+	CTRL+X $		new javascript tag
