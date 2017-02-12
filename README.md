@@ -51,3 +51,14 @@
 	CTRL+X @		new css tag
 	CTRL+X #		new meta tag
 	CTRL+X $		new javascript tag
+	
+	Mapping    Result
+	---------  -----------
+	CTRL+X =   foo<%= | %>
+	CTRL+X +   <%= foo| %>
+	CTRL+X -   foo<% | %>
+	CTRL+X _   <% foo| %>
+	CTRL+X '   foo<%# | %>
+	CTRL+X "   <%# foo| %>
+	
+	
