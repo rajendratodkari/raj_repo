@@ -11,7 +11,8 @@
         comment out target of motion
           like  gcap - comment out paragraph
                 gci{ - comment out all line in {}
-                gcaw - comment out all line including {}
+                gca{ - comment out all line including {}
+		gcw  - comment current line
         comment out in visual mode
         
      **Command Mode**
